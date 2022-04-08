@@ -1,0 +1,12 @@
+server:
+    port: 8181
+spring:
+    datasource:
+        password: Bilet2022
+        url: jdbc:postgresql://localhost:5432/bilim
+        username: postgres
+    jpa:
+        database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+        hibernate:
+            ddl-auto: create
+        show-sql: true
